@@ -1,0 +1,230 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0 auto;
+}
+
+/* .nav-item:hover .nav-link {
+  color: white;
+} */
+
+.dropdown-menu-right {
+  position: absolute;
+    width: 100%;
+    left: 100%;
+    background: #FFF;
+    display: none;
+    top: 0px;
+}
+
+/* --------------------- */
+.dropdown-item:hover + ul {
+  display: block;
+}
+
+/* ------------------ */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.navbar.bg-light {
+  background-color: #fff !important;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+nav.navbar.navbar-expand-lg.bg-primary {
+  padding-top: 0px;
+  font-size: 13px;
+  background-color: #0d4e96 !important;
+  padding: 10px 0;
+}
+
+nav.navbar.navbar-expand-lg.bg-primary a.nav-link {
+  color: white;
+  border-right: 1px solid;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.navbar.bg-light {
+  background-color: #fff !important;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-1 {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.navbar.bg-light a.nav-link {
+  color: #0d4e96 !important;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px 14px;
+}
+
+.categorys {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #0d4e96;
+  color: #fff;
+  width: 100%;
+  margin-right: 3px;
+  font-weight: 700;
+}
+
+a.category {
+  text-decoration: none;
+  color: white;
+}
+
+.tin-tuc-chia {
+  width: 50%;
+  position: relative;
+  margin-right: 15px;
+}
+
+.tin-tuc {
+  padding: 15px;
+
+}
+
+.news {
+  background-color: #f3f4f8;
+}
+
+.news-content {
+  background-color: #fff;
+  margin: 0;
+  border-radius: 8px;
+}
+
+body {
+  padding-bottom: 100px;
+}
+
+.news-con {
+  display: flex;
+}
+
+.cl-df {
+  color: #0d4e96;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+h4 a {
+  color: black;
+}
+
+h4 a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.ms-2 a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.link-img {
+  padding-bottom: 20px;
+}
+
+.link-img a img {
+  border-radius: 5px;
+}
+
+.col.text-center.content-kh p {
+  color: #508cd0;
+  font-size: 30px;
+}
+
+h2 {
+  text-decoration: none;
+}
+
+  /* BRAND */
+  .carousel-inner .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-item .col-4 {
+    justify-content: center;
+    /* flex: 0 0 auto; */
+    width: 15%;
+  }
+  
+  @media (max-width: 546px) {
+    .carousel-item .col-4 {
+      width: 50%;
+    }
+  }
+  
+/* KHOA HỌC CÔNG NGHỆ */
+.bottom div a p {
+  color: var(--nav-color);
+  font-size: 18px;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.bottom {
+  border-radius: 5px;
+}
+
+
+
+
+/* Cơ sở */
+.co-so a img {
+  border-radius: 5px 5px 0 0;
+}
+
+.co-so a p {
+  color: var(--nav-color);
+  font-size: 18px;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+/* KẾT */
+
+.col-auto img {
+  height: 80px;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.copy {
+  background: #083970;
+  color: #fff;
+}
+
+.lien-ket a i {
+  color: #fff;
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.footer {
+  background: url(./img/footer.png) #0d4e96 no-repeat center;
+}
